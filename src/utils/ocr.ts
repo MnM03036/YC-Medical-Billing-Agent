@@ -7,7 +7,7 @@ export async function processFileForOCR(file: File, setProgress?: (msg: string) 
   if (isPdf) {
     if (setProgress) setProgress("Converting PDF to Image...");
     const pdfjsLib = await import('pdfjs-dist');
-    pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.mjs`;
+    pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLib.version}/build/pdf.worker.mjs`;
 
     const arrayBuffer = await file.arrayBuffer();
     
