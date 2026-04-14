@@ -69,6 +69,7 @@ export default function Home() {
           <span className="text-xl font-bold tracking-tight">BillAuditor<span className="text-blue-600">.</span></span>
         </div>
         <div className="flex gap-4">
+          <a href="/appeals" className="text-sm font-medium hover:text-blue-600 transition-colors">Appeal Generator</a>
           <button className="text-sm font-medium hover:text-blue-600 transition-colors">Documentation</button>
           <button className="text-sm font-medium hover:text-blue-600 transition-colors">Settings</button>
         </div>
