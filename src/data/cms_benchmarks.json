@@ -1,0 +1,86 @@
+[
+  {
+    "cptCode": "99213",
+    "description": "Office/outpatient visit, est, 20-29 min",
+    "benchmarkRate": 92.00,
+    "category": "E&M"
+  },
+  {
+    "cptCode": "99214",
+    "description": "Office/outpatient visit, est, 30-39 min",
+    "benchmarkRate": 130.00,
+    "category": "E&M"
+  },
+  {
+    "cptCode": "99215",
+    "description": "Office/outpatient visit, est, 40-54 min",
+    "benchmarkRate": 183.00,
+    "category": "E&M"
+  },
+  {
+    "cptCode": "99203",
+    "description": "Office/outpatient visit, new, 30-44 min",
+    "benchmarkRate": 113.00,
+    "category": "E&M"
+  },
+  {
+    "cptCode": "99204",
+    "description": "Office/outpatient visit, new, 45-59 min",
+    "benchmarkRate": 167.00,
+    "category": "E&M"
+  },
+  {
+    "cptCode": "99283",
+    "description": "Emergency department visit, moderate severity",
+    "benchmarkRate": 76.00,
+    "category": "Emergency"
+  },
+  {
+    "cptCode": "99284",
+    "description": "Emergency department visit, high severity",
+    "benchmarkRate": 130.00,
+    "category": "Emergency"
+  },
+  {
+    "cptCode": "99285",
+    "description": "Emergency department visit, high severity/threat",
+    "benchmarkRate": 183.00,
+    "category": "Emergency"
+  },
+  {
+    "cptCode": "80053",
+    "description": "Comprehensive metabolic panel",
+    "benchmarkRate": 14.50,
+    "category": "Pathology/Lab"
+  },
+  {
+    "cptCode": "85025",
+    "description": "Complete CBC with automated differential",
+    "benchmarkRate": 10.50,
+    "category": "Pathology/Lab"
+  },
+  {
+    "cptCode": "36415",
+    "description": "Routine blood capture",
+    "benchmarkRate": 3.00,
+    "category": "Pathology/Lab"
+  },
+  {
+    "cptCode": "71045",
+    "description": "X-ray exam of chest, 1 view",
+    "benchmarkRate": 25.00,
+    "category": "Radiology"
+  },
+  {
+    "cptCode": "71046",
+    "description": "X-ray exam of chest, 2 views",
+    "benchmarkRate": 32.00,
+    "category": "Radiology"
+  },
+  {
+    "cptCode": "93000",
+    "description": "Electrocardiogram, complete",
+    "benchmarkRate": 18.00,
+    "category": "Medicine"
+  }
+]
